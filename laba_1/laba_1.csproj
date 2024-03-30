@@ -69,7 +69,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="models\Stack.cs" />
+    <Compile Include="models\ISet.cs" />
+    <Compile Include="models\Set.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

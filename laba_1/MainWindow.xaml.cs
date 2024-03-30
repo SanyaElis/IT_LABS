@@ -22,7 +22,7 @@ namespace laba_1
     {
         public MainWindow()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
     }
 }
