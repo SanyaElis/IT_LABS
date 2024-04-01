@@ -69,6 +69,7 @@ namespace laba_1.models
                     {
                         Values[i] = Values[i + 1];
                     }
+                    Size--;
                     return true;
                 }
             }
