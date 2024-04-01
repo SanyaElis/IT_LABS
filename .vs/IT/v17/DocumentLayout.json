@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\repos\\6thTerm\\IT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|D:\\repos\\6thTerm\\IT\\laba_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|d:\\repos\\6thterm\\it\\laba_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|D:\\repos\\6thTerm\\IT\\laba_1\\models\\iset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\models\\iset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|D:\\repos\\6thTerm\\IT\\laba_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|D:\\repos\\6thTerm\\IT\\laba_1\\models\\set.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -39,12 +39,11 @@
               "ViewState": "AQIAAC8AAAAAAAAAAAAuwEcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T15:24:25.439Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ISet.cs",
               "DocumentMoniker": "D:\\repos\\6thTerm\\IT\\laba_1\\models\\ISet.cs",
               "RelativeDocumentMoniker": "laba_1\\models\\ISet.cs",
@@ -52,12 +51,11 @@
               "RelativeToolTip": "laba_1\\models\\ISet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:52:48.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T15:52:48.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\repos\\6thTerm\\IT\\laba_1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "laba_1\\MainWindow.xaml.cs",
@@ -70,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\repos\\6thTerm\\IT\\laba_1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "laba_1\\MainWindow.xaml",
