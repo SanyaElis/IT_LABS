@@ -21,10 +21,14 @@
         <ListBox Grid.Column="1" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.ColumnSpan="2" Margin="266,0,0,0" Grid.RowSpan="2" BorderBrush="Black" x:Name="SetData"/>
         <Button Content="Добавить элемент" HorizontalAlignment="Left" Margin="137,0,0,0" VerticalAlignment="Top" Height="30" Width="130" x:Name="AddButtton" Grid.ColumnSpan="2" Grid.Row="1" Click="AddButtton_Click"/>
         <Button Content="Удалить" HorizontalAlignment="Left" Margin="137,72,0,0" Grid.Row="1" VerticalAlignment="Top" Height="30" Width="130" x:Name="RemoveButton" Grid.ColumnSpan="2" Click="RemoveButton_Click"/>
-        <Button Content="Очистить Set" HorizontalAlignment="Left" Margin="137,144,0,0" Grid.RowSpan="2" Grid.Row="1" VerticalAlignment="Top" Height="30" Width="130" x:Name="ClearButton" Grid.ColumnSpan="2" Click="ClearButton_Click" />
+        <Button Content="Очистить Set" HorizontalAlignment="Left" Margin="137,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="30" Width="130" x:Name="ClearButton" Grid.ColumnSpan="2" Click="ClearButton_Click" />
         <TextBox HorizontalAlignment="Left" Margin="17,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="30" Grid.Row="1" x:Name="ValueToAdd"/>
         <TextBox HorizontalAlignment="Left" Margin="17,72,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="30" x:Name="ValueToRemove"/>
         <Label Content="Введите число" HorizontalAlignment="Left" Margin="17,118,0,0" VerticalAlignment="Top" Height="27" Grid.RowSpan="2" Width="116"/>
         <Label Content="Введите число" HorizontalAlignment="Left" Margin="17,45,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Проверить" HorizontalAlignment="Left" Margin="137,144,0,0" Grid.Row="1" VerticalAlignment="Top" Height="30" Grid.RowSpan="2" Width="130" Grid.ColumnSpan="2" x:Name="ContainsButton" Click="ContainsButton_Click" />
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="17,144,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.RowSpan="2" x:Name="ValueToCheck"/>
+        <Label Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="5,144,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.461,-0.386" Grid.RowSpan="2" Height="30" Width="98" x:Name="ContainsResult"/>
+        <Label Content="Введите число" HorizontalAlignment="Left" Margin="17,119,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="120"/>
     </Grid>
 </Window>

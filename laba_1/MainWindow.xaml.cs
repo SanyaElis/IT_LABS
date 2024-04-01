@@ -74,5 +74,20 @@ namespace laba_1
             }
             UpdateDisplay();
         }
+
+        private void ContainsButton_Click(object sender, RoutedEventArgs e)
+        {
+            int checkItem;
+            if (int.TryParse(ValueToCheck.Text, out checkItem))
+            {
+                ContainsResult.Content = MySet.Contains(checkItem);
+                UpdateDisplay();
+            }
+            else
+            {
+                MessageBox.Show("Введите корректное число типа integer");
+            }
+            UpdateDisplay();
+        }
     }
 }
