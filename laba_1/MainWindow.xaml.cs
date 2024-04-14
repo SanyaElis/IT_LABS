@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using laba_1.models;
+using laba_1.ViewModel;
 
 namespace laba_1
 {
@@ -26,68 +27,7 @@ namespace laba_1
         public MainWindow()
         {
             InitializeComponent();
-            MySet = new Set<int>();
-        }
-        private void UpdateDisplay()
-        {
-            SetData.Items.Clear();
-            
-            foreach (int value in MySet.GetValues())
-            {
-                SetData.Items.Add(value);
-            }
-
-        }
-
-        private void ClearButton_Click(object sender, RoutedEventArgs e)
-        {
-            MySet.Clear();
-            UpdateDisplay();
-        }
-
-        private void AddButtton_Click(object sender, RoutedEventArgs e)
-        {
-            int newItem;
-            if (int.TryParse(ValueToAdd.Text, out newItem))
-            {
-                MySet.Add(newItem);
-                UpdateDisplay();
-            }
-            else
-            {
-                MessageBox.Show("Введите корректное число типа integer");
-            }
-            UpdateDisplay();
-        }
-
-        private void RemoveButton_Click(object sender, RoutedEventArgs e)
-        {
-            int removeItem;
-            if (int.TryParse(ValueToRemove.Text, out removeItem))
-            {
-                MySet.Remove(removeItem);
-                UpdateDisplay();
-            }
-            else
-            {
-                MessageBox.Show("Введите корректное число типа integer");
-            }
-            UpdateDisplay();
-        }
-
-        private void ContainsButton_Click(object sender, RoutedEventArgs e)
-        {
-            int checkItem;
-            if (int.TryParse(ValueToCheck.Text, out checkItem))
-            {
-                ContainsResult.Content = MySet.Contains(checkItem);
-                UpdateDisplay();
-            }
-            else
-            {
-                MessageBox.Show("Введите корректное число типа integer");
-            }
-            UpdateDisplay();
+            DataContext = new SetVM();
         }
     }
 }

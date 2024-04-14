@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\repos\\6thTerm\\IT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|d:\\repos\\6thterm\\it\\laba_1\\models\\set.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\models\\set.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|d:\\repos\\6thterm\\it\\laba_1\\viewmodel\\setvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\viewmodel\\setvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|d:\\repos\\6thterm\\it\\laba_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|D:\\repos\\6thTerm\\IT\\laba_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|d:\\repos\\6thterm\\it\\laba_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|D:\\repos\\6thTerm\\IT\\laba_1\\models\\iset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\models\\iset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|D:\\repos\\6thTerm\\IT\\laba_1\\models\\set.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6D0D19B-1397-454A-86C5-797DCFEE34E8}|laba_1\\laba_1.csproj|solutionrelative:laba_1\\models\\set.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,52 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Set.cs",
-              "DocumentMoniker": "D:\\repos\\6thTerm\\IT\\laba_1\\models\\Set.cs",
-              "RelativeDocumentMoniker": "laba_1\\models\\Set.cs",
-              "ToolTip": "D:\\repos\\6thTerm\\IT\\laba_1\\models\\Set.cs",
-              "RelativeToolTip": "laba_1\\models\\Set.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAuwEcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:24:25.439Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ISet.cs",
-              "DocumentMoniker": "D:\\repos\\6thTerm\\IT\\laba_1\\models\\ISet.cs",
-              "RelativeDocumentMoniker": "laba_1\\models\\ISet.cs",
-              "ToolTip": "D:\\repos\\6thTerm\\IT\\laba_1\\models\\ISet.cs",
-              "RelativeToolTip": "laba_1\\models\\ISet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:52:48.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\repos\\6thTerm\\IT\\laba_1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "laba_1\\MainWindow.xaml.cs",
               "ToolTip": "D:\\repos\\6thTerm\\IT\\laba_1\\MainWindow.xaml.cs",
               "RelativeToolTip": "laba_1\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAvwE8AAAAaAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T22:27:44.879Z",
+              "WhenOpened": "2024-04-14T18:39:59.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\repos\\6thTerm\\IT\\laba_1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "laba_1\\MainWindow.xaml",
               "ToolTip": "D:\\repos\\6thTerm\\IT\\laba_1\\MainWindow.xaml",
               "RelativeToolTip": "laba_1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-29T14:03:47.597Z",
+              "WhenOpened": "2024-04-14T18:39:33.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SetVM.cs",
+              "DocumentMoniker": "D:\\repos\\6thTerm\\IT\\laba_1\\ViewModel\\SetVM.cs",
+              "RelativeDocumentMoniker": "laba_1\\ViewModel\\SetVM.cs",
+              "ToolTip": "D:\\repos\\6thTerm\\IT\\laba_1\\ViewModel\\SetVM.cs",
+              "RelativeToolTip": "laba_1\\ViewModel\\SetVM.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAewDgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T18:33:52.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Set.cs",
+              "DocumentMoniker": "D:\\repos\\6thTerm\\IT\\laba_1\\models\\Set.cs",
+              "RelativeDocumentMoniker": "laba_1\\models\\Set.cs",
+              "ToolTip": "D:\\repos\\6thTerm\\IT\\laba_1\\models\\Set.cs",
+              "RelativeToolTip": "laba_1\\models\\Set.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T18:21:47.99Z",
               "EditorCaption": ""
             }
           ]

@@ -61,10 +61,9 @@ namespace laba_1 {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
-            //laba_1.App app = new laba_1.App();
-            Console.WriteLine("Sanek PAblo");
-            //app.InitializeComponent();
-            //app.Run();
+            laba_1.App app = new laba_1.App();
+            app.InitializeComponent();
+            app.Run();
         }
     }
 }

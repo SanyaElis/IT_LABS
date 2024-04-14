@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 
 namespace laba_1.models
 {
-    internal class Set<T> : ISet<T>
+    internal class Set<T> : ObservableCollection<T>, ISet<T>
     {
         public Set()
         {
@@ -15,7 +16,7 @@ namespace laba_1.models
 
         public int Size { get; set; }
 
-        public bool Add(T value)
+        public new bool Add(T value)
         {
             if (Size == Capacity - 1)
             {
@@ -29,18 +30,20 @@ namespace laba_1.models
                 return false;
             }
             Values[Size] = value;
+            base.Add(value);
             Size++;
             return true;
         }
 
-        public void Clear()
+        public new void Clear()
         {
             Size = 0;
             Capacity = INITIAL_CAPACITY;
             Values = new T[Capacity];
+            base.Clear();
         }
 
-        public bool Contains(T value)
+        public new bool Contains(T value)
         {
             for (int i = 0; i < Size; i++)
             {
@@ -59,17 +62,19 @@ namespace laba_1.models
             return Result;
         }
 
-        public bool Remove(T value)
+        public new bool Remove(T value)
         {
             for (int i = 0; i < Size; i++)
             {
-                if (Values[i].Equals((T)value))
+                if (Values[i].Equals(value))
                 {
-                    for (; i < Size; i++)
+                    for (int j = i; j < Size - 1; j++)
                     {
-                        Values[i] = Values[i + 1];
+                        Values[j] = Values[j + 1];
                     }
                     Size--;
+                    Values[Size] = default(T);
+                    base.Remove(value);
                     return true;
                 }
             }
