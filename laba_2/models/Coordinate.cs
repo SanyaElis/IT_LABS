@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace laba_2.models
 {
@@ -16,9 +12,15 @@ namespace laba_2.models
             X = x;
             Y = y;
         }
+
+        public override string ToString()
+        {
+            return $"({X}, {Y})";
+        }
+
         public double Distance(Coordinate other)
         {
-            return Math.Sqrt((X-other.X) * (X - other.X) + (Y - other.Y) * (Y - other.Y));
+            return Math.Sqrt((X - other.X) * (X - other.X) + (Y - other.Y) * (Y - other.Y));
         }
     }
 }

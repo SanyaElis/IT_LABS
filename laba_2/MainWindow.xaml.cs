@@ -1,4 +1,5 @@
-﻿using System;
+﻿using laba_2.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace laba_2
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new FigureVM();
         }
     }
 }
