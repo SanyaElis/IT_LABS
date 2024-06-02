@@ -6,7 +6,7 @@
 ## Запуск
 Клонировать репозиторий локально к себе на проект.
 ```
-git clone https://github.com/bitchofson/IT_Labs.git
+https://github.com/SanyaElis/IT_LABS.git
 ```
 Перейти по следующему пути ```laba_1\bin\Debug\laba_1.exe``` и запустить `laba_1.exe`.
 
@@ -18,7 +18,7 @@ git clone https://github.com/bitchofson/IT_Labs.git
 ## Запуск
 Клонировать репозиторий локально к себе на проект.
 ```
-git clone https://github.com/bitchofson/IT_Labs.git
+https://github.com/SanyaElis/IT_LABS.git
 ```
 Перейти по следующему пути ```laba_1\bin\Debug\laba_2.exe``` и запустить `laba_2.exe`.
 
@@ -29,7 +29,7 @@ git clone https://github.com/bitchofson/IT_Labs.git
 ## Запуск
 Клонировать репозиторий локально к себе на проект.
 ```
-git clone https://github.com/bitchofson/IT_Labs.git
+https://github.com/SanyaElis/IT_LABS.git
 ```
 Перейти по следующему пути ```laba_1\bin\Debug\laba_3.exe``` и запустить `laba_3.exe`.
 
@@ -40,7 +40,7 @@ Cмоделировать работу доменной печи. Реализо
 ## Запуск
 Клонировать репозиторий локально к себе на проект.
 ```
-git clone https://github.com/bitchofson/IT_Labs.git
+https://github.com/SanyaElis/IT_LABS.git
 ```
 Перейти по следующему пути ```laba_1\bin\Debug\laba_4.exe``` и запустить `laba_4.exe`.
 
