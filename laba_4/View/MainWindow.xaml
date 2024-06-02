@@ -1,0 +1,140 @@
+﻿<Window x:Class="laba_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba_4" xmlns:viewModel="clr-namespace:laba_4.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="600" Background="LightGray">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Background" Value="#007ACC"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style TargetType="StackPanel">
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style TargetType="ListBox">
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+    </Window.Resources>
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel />
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Furnace Information Section -->
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Furnace Information:" FontWeight="Bold" />
+                <TextBlock Text="{Binding Status}" Margin="5,0"/>
+            </StackPanel>
+            <Button Content="Start Furnace" Command="{Binding StartFurnaceCommand}" />
+        </StackPanel>
+
+        <!-- Add Worker Section -->
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <TextBlock Text="Add Worker:" FontWeight="Bold" Margin="0,5"/>
+            <Grid Margin="10" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Worker Name:" Margin="10,0" Grid.Row="0" Grid.Column="0"/>
+                <TextBox Text="{Binding WorkerName}" Width="150" Margin="10,0,0,5" IsEnabled="{Binding IsNotStarted}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left"/>
+                <TextBlock Text="Tools:" Margin="10,0" Grid.Row="2" Grid.Column="0"/>
+                <ComboBox SelectedItem="{Binding SelectedTool, Mode=TwoWay}" Width="150" Margin="10,0,0,5" IsEnabled="{Binding IsNotStarted}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left">
+                    <ComboBoxItem Content="Beginner Loader" Tag="BeginnerLoader"/>
+                    <ComboBoxItem Content="Loader" Tag="Loader"/>
+                    <ComboBoxItem Content="Advanced Loader" Tag="AdvancedLoader"/>
+                </ComboBox>
+            </Grid>
+            <Button Command="{Binding AddWorkerCommand}" Content="Add Worker" Margin="10,0" IsEnabled="{Binding IsNotStarted}"/>
+        </StackPanel>
+
+        <!-- Furnace Details Section -->
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock Text="Furnace Details:" FontWeight="Bold" Margin="0,5"/>
+            <Grid Margin="10" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Temperature: " Margin="10,0" Grid.Row="2" Grid.Column="0"/>
+                <TextBox Text="{Binding Furnace.Temperature, Mode=TwoWay}" Width="100" IsEnabled="{Binding IsNotStarted}" Margin="10,0,0,5" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left"/>
+                <TextBlock Text="Materials: " Margin="10,0" Grid.Row="3" Grid.Column="0"/>
+                <TextBox Text="{Binding Furnace.Materials, Mode=TwoWay}" Width="100" IsEnabled="{Binding IsNotStarted}" Margin="10,0,0,5" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left"/>
+            </Grid>
+        </StackPanel>
+
+        <!-- Workers List Section -->
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
+            <TextBlock Text="Workers List:" FontWeight="Bold" Margin="0,5"/>
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Name" FontWeight="Bold" Grid.Row="0" Grid.Column="0"/>
+                <TextBlock Text="Tool" FontWeight="Bold" Grid.Row="0" Grid.Column="1"/>
+                <TextBlock Text="Efficiency" FontWeight="Bold" Grid.Row="0" Grid.Column="2"/>
+                <TextBlock Text="Status" FontWeight="Bold" Grid.Row="0" Grid.Column="3"/>
+                <ItemsControl ItemsSource="{Binding Workers}" Grid.Row="1" Grid.ColumnSpan="4" Grid.Column="0">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Name}" Width="100"/>
+                                <TextBlock Text="{Binding LoaderName}" Width="100"/>
+                                <TextBlock Text="{Binding LoaderEfficiency}" Width="100"/>
+                                <TextBlock Text="{Binding IsWorking, Converter={StaticResource BooleanToTextConverter}}" Width="100"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>
