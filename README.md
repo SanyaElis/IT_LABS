@@ -44,4 +44,41 @@ https://github.com/SanyaElis/IT_LABS.git
 ```
 Перейти по следующему пути ```laba_1\bin\Debug\laba_4.exe``` и запустить `laba_4.exe`.
 
+# Демонстрация работы
+## Задача 1
+
+![1](https://github.com/SanyaElis/IT_LABS/assets/105944663/cc3ecf20-b1da-4c2a-b4ad-749c0600dfe1)
+![2](https://github.com/SanyaElis/IT_LABS/assets/105944663/3f23ee26-87a7-4906-b991-fa1b971a23cb)
+![3](https://github.com/SanyaElis/IT_LABS/assets/105944663/4f4d72a5-fa42-4efd-9f21-94a62c0e8fe3)
+![4](https://github.com/SanyaElis/IT_LABS/assets/105944663/09eec48e-36e8-4fd1-abe1-5bb5ec256dfb)
+
+## Задача 2
+
+![8](https://github.com/SanyaElis/IT_LABS/assets/105944663/68753cf2-69f4-499e-bf99-bd557a927e7c)
+![7](https://github.com/SanyaElis/IT_LABS/assets/105944663/ddd1130b-4d72-461e-b51a-b4de390fa0b3)
+![6](https://github.com/SanyaElis/IT_LABS/assets/105944663/f95b6eea-cb6f-499d-b1eb-e65f546fe6a0)
+![5](https://github.com/SanyaElis/IT_LABS/assets/105944663/da09d32f-4198-440b-abd2-6ee6bf74ef1a)
+
+## Задача 3
+
+![9](https://github.com/SanyaElis/IT_LABS/assets/105944663/43276756-f78e-4609-8586-b128a8bafc76)
+![10](https://github.com/SanyaElis/IT_LABS/assets/105944663/53776d74-3c54-4958-855d-2a427eff8875)
+![11](https://github.com/SanyaElis/IT_LABS/assets/105944663/9d209b35-3edd-4583-9a43-b13c499960bc)
+![12](https://github.com/SanyaElis/IT_LABS/assets/105944663/eff8e3e1-5a68-402b-8e18-98e7da15ce0e)
+
+## Задача 4
+
+![13](https://github.com/SanyaElis/IT_LABS/assets/105944663/c1af0bba-bda7-461d-b023-f6a9e90b9d4e)
+![14](https://github.com/SanyaElis/IT_LABS/assets/105944663/9858c36c-8e4a-46ca-857d-2e7dafb9a1be)
+![15](https://github.com/SanyaElis/IT_LABS/assets/105944663/ffbc1a67-a43f-41a0-8486-ce4d48902d20)
+![16](https://github.com/SanyaElis/IT_LABS/assets/105944663/5aa2a0f1-4456-47c1-b4d1-61b056bd2b65)
+
+
+
+
+
+
+
+
+
 
